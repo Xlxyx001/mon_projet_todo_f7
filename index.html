@@ -27,98 +27,47 @@
                         <div class="title">Ma ToDo</div>
                     </div>
                 </div>
+                
+
+                
 
                 <div class="page-content">
+                    <div class="list inset">
+                    <ul>
+                        <li class="item-content item-input">
+                            <div class="item-inner">
+                                <div class="item-input-wrap">
+                                    <input type="text" id="champ-tache" placeholder="Nouvelle tâche…">
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="block">
+                    <a href="#" class="button button-fill" id="btn-ajouter">Ajouter</a>
+                </div>
+                <!-- liste de tâches ici -->
                     <div class="list">
-                        <ul>
-                            <li class="item-content">
-                                <div class="item-media">
-                                    <label class="checkbox">
-                                        <input type="checkbox">
-                                        <i class="icon-checkbox"></i>
-                                    </label>
-                                </div>
-                                <div class="item-inner">
-                                    <div class="item-title">Ranger mes fournitures</div>
-                                </div>
-                            </li>
-                        </ul>
+                        <ul class="liste-taches"></ul>
+                    
+                </div>
+                
 
-                        <ul>
-                            <li class="item-content">
-                                <div class="item-media">
-                                    <label class="checkbox">
-                                        <input type="checkbox">
-                                        <i class="icon-checkbox"></i>
-                                    </label>
-                                </div>
-                                <div class="item-inner">
-                                    <div class="item-title">Réviser JavaScript</div>
-                                </div>
-                            </li>
-                        </ul>
+                <!-- SÉANCE 2 : ajouter un champ + un bouton, puis
+                générer la liste à partir d'un tableau JS
+                (voir js/app.js). Ajouter / supprimer une tâche.
 
-                        <ul>
-                            <li class="item-content">
-                                <div class="item-media">
-                                    <label class="checkbox">
-                                        <input type="checkbox">
-                                        <i class="icon-checkbox"></i>
-                                    </label>
-                                </div>
-                                <div class="item-inner">
-                                    <div class="item-title">Faire la lessive</div>
-                                </div>
-                            </li>
-                        </ul>
+                SÉANCE 3 : cocher/décocher, compteur, filtres,
+                puis sauvegarde avec localStorage. 
+                ===================================================== -->
+                <div class="block">
+                    <p class="text-color-gray">
 
-                        <ul>
-                            <li class="item-content">
-                                <div class="item-media">
-                                    <label class="checkbox">
-                                        <input type="checkbox">
-                                        <i class="icon-checkbox"></i>
-                                    </label>
-                                </div>
-                                <div class="item-inner">
-                                    <div class="item-title">Faire les courses</div>
-                                </div>
-                            </li>
-                        </ul>
-
-                        <ul>
-                            <li class="item-content">
-                                <div class="item-media">
-                                    <label class="checkbox">
-                                        <input type="checkbox">
-                                        <i class="icon-checkbox"></i>
-                                    </label>
-                                </div>
-                                <div class="item-inner">
-                                    <div class="item-title">Réviser l'algorithmique</div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- =====================================================
-               SÉANCE 1 : afficher ici une liste de tâches EN DUR
-                 (composant "list" avec des cases à cocher).
-
-               SÉANCE 2 : ajouter un champ + un bouton, puis
-                 générer la liste à partir d'un tableau JS
-                 (voir js/app.js). Ajouter / supprimer une tâche.
-
-               SÉANCE 3 : cocher/décocher, compteur, filtres,
-                 puis sauvegarde avec localStorage.
-               ===================================================== -->
-                    <div class="block">
-                        <p class="text-color-gray">
-                            
-                        </p>
-                    </div>
+                    </p>
                 </div>
             </div>
         </div>
+    </div>
     </div>
 
     <!-- Framework7 (JS) -->
