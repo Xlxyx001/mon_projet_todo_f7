@@ -4,7 +4,7 @@
 
 /* Couleur principale du thème (orange) */
 :root {
-    --f7-theme-color: #0ce81e;
+    --f7-theme-color: #0c97e89c;
     --f7-theme-color-rgb: 232, 89, 12;
     --f7-theme-color-shade: #cf5009;
     --f7-theme-color-tint: #f06a1e;
@@ -13,5 +13,8 @@
 .page-content {
     padding-bottom: 16px;
 }
-
+.navbar-inner {
+    color: white;
+    background-color:hsl(from var(--f7-theme-color) h s l)
+}
 /* SÉANCE 3 : ajouter ici le style de la tâche cochée (texte barré) */
