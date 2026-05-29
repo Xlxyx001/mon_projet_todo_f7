@@ -127,7 +127,7 @@ function ajouterTache() {
 
 
 function supprimerTache(id) {
-   const taches = taches.filter(function (t) { return t.id !== parseInt(id, 10); });
+    taches = taches.filter(function (t) { return t.id !== parseInt(id, 10); });
 
     sauvegarder();
     afficherTaches();
