@@ -63,3 +63,4 @@
 .btn-suppr:hover {
     color: #a70f3a;
 }
+.tache-faite { text-decoration: line-through; color: #8e8e93; }
